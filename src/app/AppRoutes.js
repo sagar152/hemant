@@ -2,7 +2,7 @@ import React, { Component,Suspense, lazy } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Spinner from '../app/shared/Spinner';
-const Signin= lazy(() => import('./dashboard/ Signin'));
+const Signin= lazy(() => import('./dashboard/Signin'));
 const Abc= lazy(() => import('./dashboard/Abc'));
 
 const Signup= lazy(() => import('./dashboard/Signup'));
