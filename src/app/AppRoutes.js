@@ -58,7 +58,7 @@ class AppRoutes extends Component {
           <Route path="/charts/chart-js" component={ ChartJs } />
 
 
-          <Route path="/user-pages/login-1" component={ Login } />
+          <Route path="/" component={ Login } />
           <Route path="/user-pages/register-1" component={ Register1 } />
 
           <Route path="/error-pages/error-404" component={ Error404 } />
