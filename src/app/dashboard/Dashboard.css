@@ -1,0 +1,104 @@
+.StatusSummary{
+    height:100px;
+    background-color: blue;
+    color: white;
+    border-radius:10px;
+}
+.campaign-card{
+    background: #1E283D url(../../assets/images/darkBG.png) repeat-y right top;
+    height: 180px;
+    border-radius: 15px;
+}
+.campaign-card .card-content{
+    color: white;
+    margin-right: 40%;
+}
+.campaign-card .card-content span {
+    font-weight: bold;   
+}
+.upgrade-btn{
+    background-color: #51B1E1;
+    color: white;
+    height: 50px;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.upgrade-btn:hover, .upgrade-btn:focus {
+    background: #269eda;
+    color: #ffffff;
+}
+.Todocard-body{
+    height:330px;
+}
+.Newmemberbtn{
+    padding-left:170px;
+   
+}
+.addbtn{
+    background: #1F3BB3;
+    font-size: 14px;
+    height:40px;
+    color: white;
+    border-radius:8px;
+    border:1px solid #1F3BB3;
+}
+.inprogess{
+    background: #fad480;
+    color: #805905;
+    border-radius:5px;
+    height:30px;
+    width:90px;
+    padding-top:8px;
+    padding-left:5px;
+
+}
+.inprogespending{
+    background: #fedfdd;
+    color: #de1708;
+    border-radius:5px;
+    height:30px;
+    width:90px;
+    padding-top:8px;
+    padding-left:9px;
+}
+.inprogescomplete{
+background: #94e0db;
+color: #1d625e;
+border-radius:5px;
+height:30px;
+width:90px;
+padding-top:8px;
+padding-left:9px;
+}
+.leavereportcard{
+    height:150px;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 50px;
+    height:50px;
+  
+  
+  }
+.p-fixed{
+    /* position: fixed; */
+    /* z-index: 1; */
+    background-color: #F4F5F7;
+}
+
+.card-body{
+    padding: 1.88rem 1rem !important;
+}
+
+.rate-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #8D8D8D;
+    margin-bottom: 4px;
+
+}

@@ -1,0 +1,27 @@
+ 
+
+
+.jotheader{
+    height:50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+    background: linear-gradient(270deg, rgb(255, 97, 0), rgb(255, 184, 65) 99.97%);
+    color: rgb(255, 255, 255) !important;
+}
+.build{
+    padding-left:300px;
+}
+
+.button-jot{
+    width: 150px;
+    height: auto;
+    background-color: black;
+    padding: 12px 12px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
